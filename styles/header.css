@@ -23,6 +23,13 @@ header .container {
     max-width: 384px; /* largura maxima de 384px da caixa de texto*/
 }
 
+#profile img {
+    width: 176px; /* largura de 176px */
+    height: 176px; /* altura de 176px */
+    object-fit: cover; /* cobre a imagem no tamanho 176 por 176 */
+    border-radius: 50%; /* deixa a imagem redonda */
+}
+
 #profile h1 {
     font: var(--text-lg); 
     color: var(--text-color-primary);
