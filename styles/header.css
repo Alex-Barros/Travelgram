@@ -1,0 +1,46 @@
+p {
+    font: --font-family;
+    font-size: var(--text-lg);
+}
+
+header {
+    padding-block: 32px; /* padding-top e padding-bottom de 32px */
+    font: var(--text-md); /* fonte de 14px */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between; /* coloca os elementos de forma que o primeiro fique no inicio e o ultimo no final */
+    align-items: center; /* alinha os elementos verticalmente */
+}
+
+#profile {
+    display: flex;
+    gap: 32px; /* espaço entre os elementos de 32px */
+}
+
+#profile > div {
+    max-width: 384px; /* largura maxima de 384px da caixa de texto*/
+}
+
+#profile h1 {
+    font: var(--text-lg); 
+    color: var(--text-color-primary);
+    margin-bottom: 8px; /* margem de 8px na parte de baixo */
+}
+
+#info {
+    list-style: none; /* remove a bolinha da lista */
+
+    display: flex; /* coloca os elementos em linha */
+    flex-direction: column; /* coloca os elementos em coluna */
+    gap: 16px; /* espaço entre os elementos de 16px */
+
+    width: 280px; /* largura de 280px */
+}
+
+#info li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
