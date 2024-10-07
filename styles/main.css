@@ -1,0 +1,12 @@
+main {
+    display: flex; /* coloca os elementos em linha */
+    flex-wrap: wrap; /* quebra a linha quando não cabe mais elementos */
+    gap: 24px; /* espaço entre os elementos de 24px */
+    padding-block: 24px; /* padding-top e padding-bottom de 24px */
+}
+
+main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}
