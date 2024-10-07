@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    gap: 24px; /* espaço entre os elementos de 24px */
+    padding-block: 24px; /* padding-top e padding-bottom de 24px */
+}
+
+footer span:nth-child(1) {
+    margin-right: auto; /* empurra o elemento para a esquerda */
+}
+
