@@ -1,0 +1,24 @@
+nav {
+    display: flex; /* coloca os elementos em linha */
+    justify-content: space-between; /* coloca os elementos de forma que o primeiro fique no inicio e o ultimo no final */
+    align-items: center; /* alinha os elementos verticalmente */
+
+    line-height: 0; /* remove o espaço entre os elementos */
+    padding-block: 20px; /* padding-top e padding-bottom de 20px*/
+}
+
+nav ul {
+    list-style: none; /* remove a bolinha da lista */
+    display: flex; /* coloca os elementos em linha */
+    align-items: center; /* alinha os elementos verticalmente */
+    gap: 24px; /* espaço entre os elementos de 20px */
+
+    padding-block: 8px; /* padding-top e padding-bottom de 8px */
+}
+
+nav ul li:last-child img {  /* pega o ultimo filho de li, que é uma img */
+    width: 40px; /* define a largura da imagem */
+    height: 40px; /* define a altura da imagem */
+    object-fit: cover; /* cobre a imagem no tamanho 40 por 40, especificado acima */
+    border-radius: 50%; /* deixa a imagem redonda */
+}

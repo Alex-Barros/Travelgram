@@ -25,3 +25,24 @@ body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
+
+a {
+    text-decoration: none; /* remove o sublinhado do link */
+    color: inherit; /* herda a cor do pai */
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline; /* adiciona o sublinhado no hover do texto*/
+}
+
+.container {
+    padding-inline: 32px; /* padding-left e padding-right de 32px */
+    max-width: 1280px;
+    margin-inline: auto; /* centraliza o container */
+
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color); /* cor de fundo do nav */
+}
